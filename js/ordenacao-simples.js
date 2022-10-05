@@ -1,3 +1,7 @@
+/**
+ * faz uma lista ordenada em um laço de repetição e depois inverta elas
+ */
+
 let ordenacao_simples = () => {
     let lista_devalores = [];
     for (let i = 0; i < 10; i++) {

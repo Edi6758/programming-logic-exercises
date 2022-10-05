@@ -1,3 +1,14 @@
+/**
+ * Crie um programa que leia o tamanho de três segmentos de reta.
+    Analise seus comprimentos e diga se é possível formar um triângulo com essas
+    retas. Matematicamente, para três segmentos formarem um triângulo, o comprimento
+    de cada lado deve ser menor que a soma dos outros dois. acrescentando o recurso de mostrar que tipo
+    de triângulo será formado:
+    - EQUILÁTERO: todos os lados iguais
+    - ISÓSCELES: dois lados iguais
+    - ESCALENO: todos os lados diferentes 
+ */
+
 let validar_triangulo = () => {
     let reta1 = parseInt(prompt("digite o valor da primeira reta "))
     let reta2 = parseInt(prompt("digite o valor da segunda reta "))

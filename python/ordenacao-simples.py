@@ -1,3 +1,8 @@
+"""
+faz uma lista ordenada em um laço de repetição e depois inverta elas
+"""
+
+
 def ordenacao_simples():
     lista_devalores = []
     for i in range(10):
